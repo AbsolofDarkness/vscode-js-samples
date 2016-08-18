@@ -48,13 +48,41 @@ The full documentation for jsconfig.json is here.
 
 > Tip: For advanced usage, remember that `jsconfig.json` is the same as a `tsconfig.json` file, only with `allowJS` set to true. See [the documentation for `tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) here to see other available options. 
 
-## Third Party IntelliSense
+## Third Party Modules
 
-TODO Typings
-
+TODO typings
 
 # Troubleshooting
 
-## Samples
+## Verify correct setup
+
+1. Do you have jsconfig.json? 
+2. Typings
+
+## Report a bug
+
+3. TS Server Trace
+
+```
+{
+  "typescript.tsserver.trace": "verbose"
+}
+```
+
+Open the developer tools console. 
+
+> Mac: Help -> Toggle Developer Tools
+
+4. Extensions
+
+```
+code --disable-extensions .
+```
+
+5. Settings
+
+Copy the contents of your
+
+## Check Samples
 
 This repo contains samples for setting up IntelliSense for JavaScript. If you cannot get IntelliSense to work, compare your project setup with the closest related sample. 
