@@ -1,3 +1,5 @@
+THIS IS A WORK IN PROGRESS
+
 # What is IntelliSense?
 
 IntelliSense is a general term for a variety of code editing features, including: code completion, paramter info, quick info, and list members. 
