@@ -5,7 +5,11 @@ IntelliSense has been described in a number of ways.
 
 * IntelliSense is intelligent code completion.
 * IntelliSense is docs at your finger tips
-* IntelliSense will make you a faster coder
+* IntelliSense provides instant context aware help. 
+
+In other tools, IntelliSense goes by the terms "code completion", "auto code completion", or "code hinting."
+
+The IntelliSense experience in VS Code is provided by a language service extension. VS Code comes with 
 
 # Using IntelliSense
 
